@@ -1,0 +1,13 @@
+<table class="pt-12 p-24 flex justify-center font-sans">
+  <tr>
+    <td class="max-w-600">
+      <if condition="h == 'h1'">
+        <h1>{{ title }}</h1>
+      </if>
+      <else>
+        <h2>{{ title }}</h2>
+      </else>
+      <p>{{ text }} <a href="{{ url_link }}" target="{{ url_target }}">{{ url_text }}</a></p>
+    </td>
+  </tr>
+</table>

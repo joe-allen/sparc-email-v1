@@ -1,0 +1,24 @@
+*,
+*::after,
+*::before {
+}
+
+p {
+  line-height: 1.4375;
+}
+
+a {
+  font-weight: 700;
+  color: theme("colors.blue.400");
+  text-decoration: none;
+}
+
+.v-logo {
+  width: 100%;
+  max-width: 100px;
+  height: auto;
+}
+
+.v-pipe {
+  padding: 0 6px;
+}

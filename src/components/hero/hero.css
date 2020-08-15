@@ -1,0 +1,26 @@
+.v-hero__subtitle-wrapper {
+  position: relative;
+  z-index: 1;
+}
+
+.v-hero__subtitle {
+  position: absolute;
+  bottom: 0px;
+  left: 150px;
+  z-index: 1;
+}
+
+@media screen and (max-width: 768px) {
+  .v-hero__subtitle {
+    position: relative;
+    padding-left: 24px;
+    width: calc(100% - 96px);
+    left: 0;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .v-hero__title {
+    padding-bottom: 0;
+  }
+}
