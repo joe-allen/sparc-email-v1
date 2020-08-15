@@ -2,14 +2,14 @@
 }
 
 .v-callout img {
-  width: 100%;
-  width: 250px;
-  height: auto;
+  width: 100% !important;
+  width: 250px !important;
+  height: auto !important;
 }
 
 @media screen and (min-width: 600px) {
   .v-callout img {
-    padding-left: 0;
-    max-width: 420px;
+    padding-left: 0 !important;
+    max-width: 420px !important;
   }
 }
